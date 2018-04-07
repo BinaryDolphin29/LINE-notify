@@ -11,7 +11,7 @@ const options = {
 	json: true,
 	form: { message: 'メッセージ内容' },
 	headers: {
-		'Content-type': 'application/json',
+		'Content-type': 'application/x-www-form-urlencoded',
 		'Authorization': Token
 	}
 }
